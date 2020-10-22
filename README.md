@@ -3,6 +3,8 @@
 
 In Huh, Eunho Yang, Sung Ju Hwang, and Jinwoo Shin | NeurIPS 2020
 
+![landscape.png](landscape.png)
+
 ## Basic usage
 
 To reproduce the experiments in the paper:
