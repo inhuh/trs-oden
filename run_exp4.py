@@ -32,7 +32,7 @@ def get_args():
     parser.add_argument('--nb_object', default=1, type=int)
     parser.add_argument('--nb_coords', default=1, type=int)
     parser.add_argument('--time_horizon', default=10, type=int)
-    parser.add_argument('--time_augment', default=False, type=bool)
+    parser.add_argument('--time_augment', action='store_true')
     parser.add_argument('--nb_units', default=1000, type=int)
     parser.add_argument('--nb_layers', default=1, type=int)
     parser.add_argument('--activation', default='tanh', type=str)
